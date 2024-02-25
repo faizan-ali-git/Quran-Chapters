@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS CHAPTERS;  
+CREATE TABLE CHAPTERS(
+Chapter_Index INT AUTO_INCREMENT  PRIMARY KEY,
+Chapter_Name VARCHAR(50) NOT NULL,  
+Verses integer NOT NULL, 	
+Words  integer NOT NULL,
+Chars integer NOT NULL 
+);
